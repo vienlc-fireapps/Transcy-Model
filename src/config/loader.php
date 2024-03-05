@@ -1,6 +1,6 @@
 <?php
 
-$configPath = base_path('src/config');
+$configPath = __DIR__ . '/config';
 
 // Lấy danh sách tất cả các file trong thư mục cấu hình
 $files = glob("{$configPath}/*.php");
