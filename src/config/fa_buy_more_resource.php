@@ -1,7 +1,5 @@
 <?php
 
-namespace Transcy\Config;
-
 return [
     [
         'interval' => 'EVERY_30_DAYS',
