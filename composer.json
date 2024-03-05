@@ -1,0 +1,27 @@
+{
+    "name": "vienlc/transcy",
+    "description": "A collection of shared Eloquent models and configurations for Transcy applications.",
+    "type": "library",
+    "authors": [
+        {
+            "name": "VienLC",
+            "email": "vienlc@firegroup.io"
+        }
+    ],
+    "require": {
+        "php": "^7.3|^8.0",
+        "illuminate/support": "^8.0|^9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Transcy\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                
+            ]
+        }
+    }
+}
