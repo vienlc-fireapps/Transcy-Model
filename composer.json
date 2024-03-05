@@ -15,15 +15,12 @@
     "autoload": {
         "psr-4": {
             "Transcy\\": "src/"
-        },
-        "files": [
-            "src/config/loader.php"
-        ]
+        }
     },
     "extra": {
         "laravel": {
             "providers": [
-                
+                "Transcy\\TranscyServiceProvider"
             ]
         }
     }
