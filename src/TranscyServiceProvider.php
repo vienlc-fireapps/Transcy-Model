@@ -15,7 +15,7 @@ class TranscyServiceProvider extends ServiceProvider
     {
         // Publish all configuration files to the Laravel app
         $this->publishes([
-            __DIR__ . '/../config' => config_path('config'),
+            __DIR__ . '/config' => config_path(),
         ], 'config');
     }
 
