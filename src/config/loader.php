@@ -1,6 +1,6 @@
 <?php
 
-$configPath = __DIR__ . '/config';
+$configPath = __DIR__;
 
 // Lấy danh sách tất cả các file trong thư mục cấu hình
 $files = glob("{$configPath}/*.php");
